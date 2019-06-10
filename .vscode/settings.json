@@ -1,0 +1,23 @@
+{
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+    ],
+    "eslint.autoFixOnSave": true,
+    "files.exclude": {
+        ".nuxt": true,
+        "dist": true,
+    }
+}
